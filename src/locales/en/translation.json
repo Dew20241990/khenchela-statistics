@@ -1,0 +1,342 @@
+{
+  "app": {
+    "title": "Digital Statistics System",
+    "subtitle": "Employment, Labor, and Social Security Sector",
+    "version": "Version 1.0 - 2025",
+    "wilaya": "Wilaya of Khenchela"
+  },
+  "nav": {
+    "dashboard": "Dashboard",
+    "employmentAgency": "Employment Service",
+    "laborInspection": "Labor Inspection",
+    "nationalFunds": "National Funds",
+    "agencies": "Agencies",
+    "annualReports": "Annual Reports"
+  },
+  "institutions": {
+    "directorate": "Employment Directorate",
+    "anem": "National Employment Agency",
+    "cnas": {
+      "name": "National Social Insurance Fund",
+      "fullName": "National Social Insurance Fund for Employees",
+      "acronym": "CNAS"
+    },
+    "cnr": {
+      "name": "National Retirement Fund",
+      "fullName": "National Retirement Fund",
+      "acronym": "CNR"
+    },
+    "cnac": {
+      "name": "National Unemployment Insurance Fund",
+      "fullName": "National Unemployment Insurance Fund",
+      "acronym": "CNAC"
+    },
+    "casnos": {
+      "name": "National Social Security Fund for Non-Employees",
+      "fullName": "National Social Security Fund for Non-Employees",
+      "acronym": "CASNOS"
+    },
+    "cacobatph": {
+      "name": "Paid Leave Fund for Construction Sector",
+      "fullName": "National Fund for Paid Leave and Weather-Related Unemployment for the Building, Public Works and Hydraulics Sectors",
+      "acronym": "CACOBATPH"
+    },
+    "nesda": {
+      "name": "National Agency for Entrepreneurship Support and Development",
+      "fullName": "National Agency for Entrepreneurship Support and Development",
+      "acronym": "NESDA"
+    },
+    "angem": {
+      "name": "National Micro-Credit Management Agency",
+      "fullName": "National Micro-Credit Management Agency",
+      "acronym": "ANGEM"
+    },
+    "onaaph": {
+      "name": "National Office for Prosthetic Devices for Disabled Persons",
+      "fullName": "National Office for Equipment and Accessories for Disabled Persons",
+      "acronym": "ONAAPH"
+    }
+  },
+  "common": {
+    "year": "Year",
+    "total": "Total",
+    "percentage": "Percentage",
+    "count": "Count",
+    "average": "Average",
+    "million": "million",
+    "billion": "billion",
+    "dzd": "DZD",
+    "rate": "Rate",
+    "trend": "Trend",
+    "comparison": "Comparison",
+    "export": "Export",
+    "exportPdf": "Export PDF",
+    "filter": "Filter",
+    "search": "Search",
+    "all": "All",
+    "loading": "Loading...",
+    "noData": "No data available",
+    "months": {
+      "january": "January",
+      "february": "February",
+      "march": "March",
+      "april": "April",
+      "may": "May",
+      "june": "June",
+      "july": "July",
+      "august": "August",
+      "september": "September",
+      "october": "October",
+      "november": "November",
+      "december": "December"
+    },
+    "quarters": {
+      "q1": "Q1",
+      "q2": "Q2",
+      "q3": "Q3",
+      "q4": "Q4"
+    }
+  },
+  "dashboard": {
+    "title": "Main Dashboard",
+    "subtitle": "General Statistics for the Employment, Labor, and Social Security Sector",
+    "kpis": {
+      "activePopulation": "Active Population",
+      "activePopulationTooltip": "Number of working-age population (15-64 years) capable of working",
+      "employedPopulation": "Employed Population",
+      "employedPopulationTooltip": "Number of persons with salaried employment or professional activity",
+      "unemploymentRate": "Unemployment Rate",
+      "unemploymentRateTooltip": "Percentage of unemployed persons relative to total active population",
+      "totalBeneficiaries": "Social Security Beneficiaries",
+      "totalBeneficiariesTooltip": "Total socially insured persons across all funds",
+      "registeredJobSeekers": "Registered Job Seekers",
+      "placementsThisYear": "Placements This Year",
+      "socialSecurityCoverage": "Social Security Coverage Rate",
+      "retiredPersons": "Retired Persons"
+    },
+    "charts": {
+      "employmentEvolution": "Employment and Unemployment Evolution",
+      "beneficiariesDistribution": "Beneficiaries Distribution by Fund",
+      "monthlyRegistrations": "Monthly Registrations and Placements",
+      "educationDistribution": "Job Seekers Distribution by Education Level"
+    },
+    "quickStats": "Quick Statistics",
+    "availableJobOffers": "Available Job Offers",
+    "placementRate": "Placement Rate",
+    "newRegistrations": "New Registrations",
+    "totalRegistered": "Total Registered",
+    "yearlyEmploymentComparison": "Yearly Employment Comparison",
+    "entrepreneurship": "Entrepreneurship and Micro-Credits"
+  },
+  "employment": {
+    "title": "Wilaya Employment Service",
+    "subtitle": "National Employment Agency - Khenchela Branch",
+    "totalJobSeekers": "Registered Job Seekers",
+    "newRegistrations": "New Registrations",
+    "jobOffers": "Job Offers",
+    "placements": "Placements",
+    "placementRate": "Placement Rate",
+    "monthlyTrend": "Monthly Trend of Registrations and Placements",
+    "ageDistribution": "Job Seekers Distribution by Age Group",
+    "educationDistribution": "Job Seekers Distribution by Education Level",
+    "contractDistribution": "Placements Distribution by Contract Type",
+    "yearlyComparison": "Yearly Comparison",
+    "educationLevels": {
+      "university": "University",
+      "secondary": "Secondary",
+      "vocational": "Vocational Training",
+      "primary": "Primary or Less"
+    },
+    "contractTypes": {
+      "permanent": "Permanent Contract",
+      "temporary": "Fixed-Term Contract",
+      "integration": "Professional Integration",
+      "training": "Training"
+    },
+    "registrations": "Registrations"
+  },
+  "laborInspection": {
+    "title": "Labor Inspection",
+    "subtitle": "Control and Inspection Statistics",
+    "totalVisits": "Total Visits",
+    "totalVisitsTooltip": "Number of field inspection visits carried out during the year",
+    "companiesInspected": "Companies Inspected",
+    "workersControlled": "Workers Controlled",
+    "violationsRecorded": "Violations Recorded",
+    "complianceRate": "Compliance Rate",
+    "complianceRateTooltip": "Percentage of companies compliant with labor law",
+    "visitsByType": "Visits Distribution by Type",
+    "violationsByCategory": "Violations Distribution by Category",
+    "sectorDistribution": "Visits and Violations Distribution by Sector",
+    "quarterlyTrend": "Quarterly Trend",
+    "visitTypes": {
+      "routine": "Routine Visits",
+      "control": "Control Visits",
+      "accident": "Accident Investigations",
+      "complaint": "Complaint Follow-ups"
+    },
+    "violationCategories": {
+      "safety": "Occupational Health and Safety",
+      "contracts": "Employment Contracts",
+      "wages": "Wages and Compensation",
+      "hours": "Working Hours",
+      "other": "Other"
+    },
+    "sectors": {
+      "construction": "Construction and Public Works",
+      "commerce": "Commerce",
+      "industry": "Industry",
+      "services": "Services",
+      "agriculture": "Agriculture"
+    },
+    "visits": "visit",
+    "violations": "violation"
+  },
+  "funds": {
+    "cnas": {
+      "title": "National Social Insurance Fund",
+      "subtitle": "Social Coverage Statistics for Employees",
+      "affiliatedWorkers": "Affiliated Workers",
+      "affiliatedWorkersTooltip": "Number of workers affiliated with the social insurance system",
+      "employers": "Employers",
+      "beneficiaries": "Beneficiaries",
+      "beneficiariesTooltip": "Total coverage beneficiaries (workers and their families)",
+      "medicalReimbursements": "Medical Reimbursements",
+      "contributionRate": "Contribution Rate",
+      "contributionRateTooltip": "Rate of contribution collection relative to total due",
+      "affiliatedEvolution": "Evolution of Affiliated Members",
+      "summary": "Indicators Summary",
+      "fundInfo": "Fund Information",
+      "fundDescription": "The fund covers employees against occupational risks and illnesses, and guarantees them reimbursement for medications, treatment, and hospitalization.",
+      "familyCoverageRate": "Family Coverage Rate",
+      "avgWorkersPerCompany": "Average Workers/Company"
+    },
+    "cnr": {
+      "title": "National Retirement Fund",
+      "subtitle": "Retirees and Pension Statistics",
+      "totalRetirees": "Total Retirees",
+      "newRetirees": "New Retirees",
+      "averagePension": "Average Pension",
+      "pensionBudget": "Pension Budget",
+      "survivalPensions": "Survivor Pensions",
+      "survivalPensionsTooltip": "Number of survivor pension beneficiaries",
+      "retireesEvolution": "Evolution of Retirees",
+      "derivedIndicators": "Derived Indicators",
+      "survivalRate": "Survivor Pension Rate",
+      "calculatedAvgPension": "Calculated Monthly Average Pension",
+      "newFlowRate": "New Flow Rate"
+    },
+    "cnac": {
+      "title": "National Unemployment Insurance Fund",
+      "subtitle": "Unemployment Compensation and Project Support Statistics",
+      "registeredUnemployed": "Registered Unemployed",
+      "allowanceBeneficiaries": "Allowance Beneficiaries",
+      "monthlyAllowance": "Monthly Allowance",
+      "projectsFinanced": "Projects Financed",
+      "jobsCreated": "Jobs Created",
+      "jobsCreatedTooltip": "Jobs created through financed projects",
+      "unemploymentStats": "Unemployment Compensation Statistics",
+      "projectSupport": "Micro-Project Support",
+      "benefitRate": "Benefit Rate",
+      "financedProject": "financed project",
+      "createdPosition": "position created",
+      "avgPositionsPerProject": "Average Positions/Project"
+    },
+    "casnos": {
+      "title": "National Social Security Fund for Non-Employees",
+      "subtitle": "Social Coverage Statistics for Self-Employed Workers",
+      "affiliatedWorkers": "Affiliates",
+      "activeContributors": "Active Contributors",
+      "retiredBeneficiaries": "Retired Beneficiaries",
+      "contributionRate": "Contribution Rate",
+      "affiliatedEvolution": "Evolution of Affiliated Members",
+      "summary": "Indicators Summary",
+      "derivedIndicators": "Derived Indicators",
+      "activityRate": "Activity Rate",
+      "retiredRate": "Retired Rate",
+      "fundDescription": "CASNOS provides social coverage for non-salaried workers such as traders, artisans, farmers, and liberal professionals."
+    },
+    "cacobatph": {
+      "title": "Paid Leave Fund for Construction and Public Works",
+      "subtitle": "Statistics of Affiliated Workers and Paid Leave",
+      "registeredWorkers": "Registered Workers",
+      "employersAffiliated": "Affiliated Employers",
+      "leavesDays": "Paid Leave Days",
+      "totalBudget": "Total Budget",
+      "summary": "Indicators Summary",
+      "derivedIndicators": "Derived Indicators",
+      "workersPerCompany": "worker/company",
+      "daysPerWorker": "day/worker",
+      "fundDescription": "CACOBATPH finances annual paid leave for workers in the building, public works, and hydraulics sector."
+    }
+  },
+  "agencies": {
+    "nesda": {
+      "title": "National Agency for Entrepreneurship Support and Development",
+      "subtitle": "Entrepreneurial Project Support Statistics",
+      "projectsSubmitted": "Projects Submitted",
+      "projectsApproved": "Projects Approved",
+      "jobsCreated": "Jobs Created",
+      "totalFinancing": "Financing Granted",
+      "successRate": "Success Rate",
+      "successRateTooltip": "Percentage of approved projects relative to total submitted",
+      "projectsEvolution": "Evolution of Financed Projects",
+      "summary": "Indicators Summary",
+      "performance": "Performance Indicators",
+      "positionsPerProject": "position/project",
+      "financingPerProject": "million DZD/project",
+      "agencyDescription": "NESDA aims to support and develop entrepreneurial spirit among youth and finance their investment projects."
+    },
+    "angem": {
+      "title": "National Micro-Credit Management Agency",
+      "subtitle": "Micro-Credit and Self-Employment Statistics",
+      "creditsGranted": "Credits Granted",
+      "totalAmount": "Total Amount",
+      "beneficiaries": "Beneficiaries",
+      "womenPercentage": "Women Percentage",
+      "womenPercentageTooltip": "Percentage of women benefiting from credits",
+      "repaymentRate": "Repayment Rate",
+      "averageLoan": "Average Loan",
+      "creditsEvolution": "Evolution of Credits Granted",
+      "summary": "Indicators Summary",
+      "socialDimension": "Social Dimension",
+      "womenBeneficiaries": "woman beneficiary",
+      "agencyDescription": "ANGEM aims to combat unemployment and precarity by granting micro-credits to finance small projects and income-generating activities."
+    },
+    "onaaph": {
+      "title": "National Office for Prosthetic Devices for Disabled Persons",
+      "subtitle": "Prosthetics and Social Integration Statistics",
+      "registeredBeneficiaries": "Registered Beneficiaries",
+      "devicesProvided": "Devices Provided",
+      "integrationPrograms": "Integration Programs",
+      "satisfactionRate": "Satisfaction Rate",
+      "satisfactionRateTooltip": "Beneficiary satisfaction rate regarding services provided",
+      "summary": "Indicators Summary",
+      "performance": "Performance Indicators",
+      "devicesPerBeneficiary": "device/beneficiary",
+      "integrationRate": "Integration Rate",
+      "agencyDescription": "The National Office aims to provide prosthetics and medical equipment to persons with disabilities and support their social and professional integration."
+    }
+  },
+  "reports": {
+    "title": "Annual Reports",
+    "subtitle": "Annual Balance of the Employment, Labor, and Social Security Sector",
+    "executiveSummary": "Executive Summary",
+    "executiveSummaryText": "The Employment Directorate of the Wilaya of {{wilaya}} is honored to present the annual balance for the year {{year}}, which includes the main indicators and achievements accomplished in the employment, labor, and social security sector. This balance aims to provide a comprehensive view of the employment situation and social coverage in the wilaya.",
+    "employmentSector": "Employment Sector",
+    "laborInspection": "Labor Inspection",
+    "socialSecurity": "Social Security",
+    "entrepreneurship": "Entrepreneurship and Self-Employment",
+    "inspectionVisits": "Inspection Visits",
+    "achievedPlacements": "Achieved Placements",
+    "recordedViolations": "Recorded Violations",
+    "generalCoverageRate": "General Coverage Rate",
+    "financedProjects": "Financed Projects",
+    "grantedLoans": "Granted Loans",
+    "createdPositions": "Created Positions",
+    "reportFooter": "This report is issued by the Employment Directorate of the Wilaya of {{wilaya}} - Fiscal Year {{year}}",
+    "dataNote": "All data is official and approved by the competent authorities",
+    "employed": "employed",
+    "unemployed": "unemployed"
+  }
+}

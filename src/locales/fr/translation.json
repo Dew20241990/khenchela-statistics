@@ -1,0 +1,342 @@
+{
+  "app": {
+    "title": "Système Statistique Numérique",
+    "subtitle": "Secteur de l'Emploi, du Travail et de la Sécurité Sociale",
+    "version": "Version 1.0 - 2025",
+    "wilaya": "Wilaya de Khenchela"
+  },
+  "nav": {
+    "dashboard": "Tableau de Bord",
+    "employmentAgency": "Service de l'Emploi",
+    "laborInspection": "Inspection du Travail",
+    "nationalFunds": "Caisses Nationales",
+    "agencies": "Agences",
+    "annualReports": "Rapports Annuels"
+  },
+  "institutions": {
+    "directorate": "Direction de l'Emploi",
+    "anem": "Agence Nationale de l'Emploi",
+    "cnas": {
+      "name": "Caisse Nationale des Assurances Sociales",
+      "fullName": "Caisse Nationale des Assurances Sociales des Travailleurs Salariés",
+      "acronym": "CNAS"
+    },
+    "cnr": {
+      "name": "Caisse Nationale des Retraites",
+      "fullName": "Caisse Nationale des Retraites",
+      "acronym": "CNR"
+    },
+    "cnac": {
+      "name": "Caisse Nationale d'Assurance Chômage",
+      "fullName": "Caisse Nationale d'Assurance Chômage",
+      "acronym": "CNAC"
+    },
+    "casnos": {
+      "name": "Caisse Nationale de Sécurité Sociale des Non-Salariés",
+      "fullName": "Caisse Nationale de Sécurité Sociale des Non-Salariés",
+      "acronym": "CASNOS"
+    },
+    "cacobatph": {
+      "name": "Caisse des Congés Payés du BTPH",
+      "fullName": "Caisse Nationale des Congés Payés et du Chômage Intempéries des Secteurs du Bâtiment, des Travaux Publics et de l'Hydraulique",
+      "acronym": "CACOBATPH"
+    },
+    "nesda": {
+      "name": "Agence Nationale d'Appui et de Développement de l'Entrepreneuriat",
+      "fullName": "Agence Nationale d'Appui et de Développement de l'Entrepreneuriat",
+      "acronym": "NESDA"
+    },
+    "angem": {
+      "name": "Agence Nationale de Gestion du Micro-Crédit",
+      "fullName": "Agence Nationale de Gestion du Micro-Crédit",
+      "acronym": "ANGEM"
+    },
+    "onaaph": {
+      "name": "Office National des Appareillages pour Personnes Handicapées",
+      "fullName": "Office National des Appareillages et Accessoires pour Personnes Handicapées",
+      "acronym": "ONAAPH"
+    }
+  },
+  "common": {
+    "year": "Année",
+    "total": "Total",
+    "percentage": "Pourcentage",
+    "count": "Nombre",
+    "average": "Moyenne",
+    "million": "million",
+    "billion": "milliard",
+    "dzd": "DA",
+    "rate": "Taux",
+    "trend": "Évolution",
+    "comparison": "Comparaison",
+    "export": "Exporter",
+    "exportPdf": "Exporter PDF",
+    "filter": "Filtrer",
+    "search": "Rechercher",
+    "all": "Tous",
+    "loading": "Chargement...",
+    "noData": "Aucune donnée disponible",
+    "months": {
+      "january": "Janvier",
+      "february": "Février",
+      "march": "Mars",
+      "april": "Avril",
+      "may": "Mai",
+      "june": "Juin",
+      "july": "Juillet",
+      "august": "Août",
+      "september": "Septembre",
+      "october": "Octobre",
+      "november": "Novembre",
+      "december": "Décembre"
+    },
+    "quarters": {
+      "q1": "1er Trimestre",
+      "q2": "2ème Trimestre",
+      "q3": "3ème Trimestre",
+      "q4": "4ème Trimestre"
+    }
+  },
+  "dashboard": {
+    "title": "Tableau de Bord Principal",
+    "subtitle": "Statistiques Générales du Secteur de l'Emploi, du Travail et de la Sécurité Sociale",
+    "kpis": {
+      "activePopulation": "Population Active",
+      "activePopulationTooltip": "Nombre de personnes en âge de travailler (15-64 ans) capables de travailler",
+      "employedPopulation": "Population Employée",
+      "employedPopulationTooltip": "Nombre de personnes ayant un emploi salarié ou une activité professionnelle",
+      "unemploymentRate": "Taux de Chômage",
+      "unemploymentRateTooltip": "Pourcentage de chômeurs par rapport à la population active totale",
+      "totalBeneficiaries": "Bénéficiaires de la Sécurité Sociale",
+      "totalBeneficiariesTooltip": "Total des assurés sociaux à travers toutes les caisses",
+      "registeredJobSeekers": "Demandeurs d'Emploi Inscrits",
+      "placementsThisYear": "Placements Cette Année",
+      "socialSecurityCoverage": "Taux de Couverture Sociale",
+      "retiredPersons": "Retraités"
+    },
+    "charts": {
+      "employmentEvolution": "Évolution de l'Emploi et du Chômage",
+      "beneficiariesDistribution": "Répartition des Bénéficiaires par Caisse",
+      "monthlyRegistrations": "Inscriptions et Placements Mensuels",
+      "educationDistribution": "Répartition des Demandeurs par Niveau d'Éducation"
+    },
+    "quickStats": "Statistiques Rapides",
+    "availableJobOffers": "Offres d'Emploi Disponibles",
+    "placementRate": "Taux de Placement",
+    "newRegistrations": "Nouvelles Inscriptions",
+    "totalRegistered": "Total des Inscrits",
+    "yearlyEmploymentComparison": "Comparaison Annuelle de l'Emploi",
+    "entrepreneurship": "Entrepreneuriat et Micro-Crédits"
+  },
+  "employment": {
+    "title": "Service de l'Emploi de la Wilaya",
+    "subtitle": "Agence Nationale de l'Emploi - Antenne de Khenchela",
+    "totalJobSeekers": "Demandeurs d'Emploi Inscrits",
+    "newRegistrations": "Nouvelles Inscriptions",
+    "jobOffers": "Offres d'Emploi",
+    "placements": "Placements",
+    "placementRate": "Taux de Placement",
+    "monthlyTrend": "Évolution Mensuelle des Inscriptions et Placements",
+    "ageDistribution": "Répartition des Demandeurs par Tranche d'Âge",
+    "educationDistribution": "Répartition des Demandeurs par Niveau d'Éducation",
+    "contractDistribution": "Répartition des Placements par Type de Contrat",
+    "yearlyComparison": "Comparaison Annuelle",
+    "educationLevels": {
+      "university": "Universitaire",
+      "secondary": "Secondaire",
+      "vocational": "Formation Professionnelle",
+      "primary": "Moyen ou Moins"
+    },
+    "contractTypes": {
+      "permanent": "Contrat à Durée Indéterminée",
+      "temporary": "Contrat à Durée Déterminée",
+      "integration": "Insertion Professionnelle",
+      "training": "Formation"
+    },
+    "registrations": "Inscriptions"
+  },
+  "laborInspection": {
+    "title": "Inspection du Travail",
+    "subtitle": "Statistiques de Contrôle et d'Inspection",
+    "totalVisits": "Total des Visites",
+    "totalVisitsTooltip": "Nombre de visites d'inspection sur le terrain effectuées durant l'année",
+    "companiesInspected": "Entreprises Inspectées",
+    "workersControlled": "Travailleurs Contrôlés",
+    "violationsRecorded": "Infractions Enregistrées",
+    "complianceRate": "Taux de Conformité",
+    "complianceRateTooltip": "Pourcentage d'entreprises conformes au code du travail",
+    "visitsByType": "Répartition des Visites par Type",
+    "violationsByCategory": "Répartition des Infractions par Catégorie",
+    "sectorDistribution": "Répartition des Visites et Infractions par Secteur",
+    "quarterlyTrend": "Évolution Trimestrielle",
+    "visitTypes": {
+      "routine": "Visites de Routine",
+      "control": "Visites de Contrôle",
+      "accident": "Enquêtes Accidents",
+      "complaint": "Suivi de Plaintes"
+    },
+    "violationCategories": {
+      "safety": "Santé et Sécurité au Travail",
+      "contracts": "Contrats de Travail",
+      "wages": "Salaires et Indemnités",
+      "hours": "Durée du Travail",
+      "other": "Autres"
+    },
+    "sectors": {
+      "construction": "Bâtiment et Travaux Publics",
+      "commerce": "Commerce",
+      "industry": "Industrie",
+      "services": "Services",
+      "agriculture": "Agriculture"
+    },
+    "visits": "visite",
+    "violations": "infraction"
+  },
+  "funds": {
+    "cnas": {
+      "title": "Caisse Nationale des Assurances Sociales",
+      "subtitle": "Statistiques de Couverture Sociale des Salariés",
+      "affiliatedWorkers": "Travailleurs Affiliés",
+      "affiliatedWorkersTooltip": "Nombre de travailleurs affiliés au système d'assurance sociale",
+      "employers": "Employeurs",
+      "beneficiaries": "Bénéficiaires",
+      "beneficiariesTooltip": "Total des bénéficiaires de la couverture (travailleurs et leurs familles)",
+      "medicalReimbursements": "Remboursements Médicaux",
+      "contributionRate": "Taux de Cotisation",
+      "contributionRateTooltip": "Taux de recouvrement des cotisations par rapport au total dû",
+      "affiliatedEvolution": "Évolution du Nombre d'Affiliés",
+      "summary": "Résumé des Indicateurs",
+      "fundInfo": "Informations sur la Caisse",
+      "fundDescription": "La caisse assure la couverture des travailleurs salariés contre les risques professionnels et les maladies, et leur garantit le remboursement des médicaments, des soins et de l'hospitalisation.",
+      "familyCoverageRate": "Taux de Couverture Familiale",
+      "avgWorkersPerCompany": "Moyenne Travailleurs/Entreprise"
+    },
+    "cnr": {
+      "title": "Caisse Nationale des Retraites",
+      "subtitle": "Statistiques des Retraités et des Pensions",
+      "totalRetirees": "Total des Retraités",
+      "newRetirees": "Nouveaux Retraités",
+      "averagePension": "Pension Moyenne",
+      "pensionBudget": "Budget des Pensions",
+      "survivalPensions": "Pensions de Réversion",
+      "survivalPensionsTooltip": "Nombre de bénéficiaires des pensions de réversion",
+      "retireesEvolution": "Évolution du Nombre de Retraités",
+      "derivedIndicators": "Indicateurs Dérivés",
+      "survivalRate": "Taux de Pensions de Réversion",
+      "calculatedAvgPension": "Pension Mensuelle Moyenne Calculée",
+      "newFlowRate": "Taux de Flux des Nouveaux"
+    },
+    "cnac": {
+      "title": "Caisse Nationale d'Assurance Chômage",
+      "subtitle": "Statistiques d'Indemnisation du Chômage et d'Appui aux Projets",
+      "registeredUnemployed": "Chômeurs Inscrits",
+      "allowanceBeneficiaries": "Bénéficiaires d'Indemnités",
+      "monthlyAllowance": "Indemnité Mensuelle",
+      "projectsFinanced": "Projets Financés",
+      "jobsCreated": "Emplois Créés",
+      "jobsCreatedTooltip": "Emplois créés à travers les projets financés",
+      "unemploymentStats": "Statistiques d'Indemnisation du Chômage",
+      "projectSupport": "Appui aux Micro-Projets",
+      "benefitRate": "Taux de Bénéfice",
+      "financedProject": "projet financé",
+      "createdPosition": "poste créé",
+      "avgPositionsPerProject": "Moyenne Postes/Projet"
+    },
+    "casnos": {
+      "title": "Caisse Nationale de Sécurité Sociale des Non-Salariés",
+      "subtitle": "Statistiques de Couverture Sociale des Travailleurs Indépendants",
+      "affiliatedWorkers": "Affiliés",
+      "activeContributors": "Contributeurs Actifs",
+      "retiredBeneficiaries": "Retraités Bénéficiaires",
+      "contributionRate": "Taux de Cotisation",
+      "affiliatedEvolution": "Évolution du Nombre d'Affiliés",
+      "summary": "Résumé des Indicateurs",
+      "derivedIndicators": "Indicateurs Dérivés",
+      "activityRate": "Taux d'Activité",
+      "retiredRate": "Taux de Retraités",
+      "fundDescription": "La CASNOS assure la couverture sociale des travailleurs non-salariés tels que les commerçants, artisans, agriculteurs et professions libérales."
+    },
+    "cacobatph": {
+      "title": "Caisse des Congés Payés du Bâtiment et Travaux Publics",
+      "subtitle": "Statistiques des Travailleurs Affiliés et Congés Payés",
+      "registeredWorkers": "Travailleurs Inscrits",
+      "employersAffiliated": "Employeurs Affiliés",
+      "leavesDays": "Jours de Congés Payés",
+      "totalBudget": "Budget Total",
+      "summary": "Résumé des Indicateurs",
+      "derivedIndicators": "Indicateurs Dérivés",
+      "workersPerCompany": "travailleur/entreprise",
+      "daysPerWorker": "jour/travailleur",
+      "fundDescription": "La CACOBATPH finance les congés annuels payés des travailleurs du secteur du bâtiment, des travaux publics et de l'hydraulique."
+    }
+  },
+  "agencies": {
+    "nesda": {
+      "title": "Agence Nationale d'Appui et de Développement de l'Entrepreneuriat",
+      "subtitle": "Statistiques d'Appui aux Projets Entrepreneuriaux",
+      "projectsSubmitted": "Projets Soumis",
+      "projectsApproved": "Projets Approuvés",
+      "jobsCreated": "Emplois Créés",
+      "totalFinancing": "Financement Accordé",
+      "successRate": "Taux de Réussite",
+      "successRateTooltip": "Pourcentage de projets approuvés par rapport au total soumis",
+      "projectsEvolution": "Évolution des Projets Financés",
+      "summary": "Résumé des Indicateurs",
+      "performance": "Indicateurs de Performance",
+      "positionsPerProject": "poste/projet",
+      "financingPerProject": "million DA/projet",
+      "agencyDescription": "L'agence NESDA vise à soutenir et développer l'esprit entrepreneurial chez les jeunes et financer leurs projets d'investissement."
+    },
+    "angem": {
+      "title": "Agence Nationale de Gestion du Micro-Crédit",
+      "subtitle": "Statistiques des Micro-Crédits et de l'Auto-Emploi",
+      "creditsGranted": "Crédits Accordés",
+      "totalAmount": "Montant Total",
+      "beneficiaries": "Bénéficiaires",
+      "womenPercentage": "Pourcentage de Femmes",
+      "womenPercentageTooltip": "Pourcentage de femmes bénéficiaires des crédits",
+      "repaymentRate": "Taux de Remboursement",
+      "averageLoan": "Crédit Moyen",
+      "creditsEvolution": "Évolution des Crédits Accordés",
+      "summary": "Résumé des Indicateurs",
+      "socialDimension": "Dimension Sociale",
+      "womenBeneficiaries": "femme bénéficiaire",
+      "agencyDescription": "L'ANGEM vise à lutter contre le chômage et la précarité en accordant des micro-crédits pour financer des petits projets et des activités génératrices de revenus."
+    },
+    "onaaph": {
+      "title": "Office National des Appareillages pour Personnes Handicapées",
+      "subtitle": "Statistiques des Prothèses et de l'Intégration Sociale",
+      "registeredBeneficiaries": "Bénéficiaires Inscrits",
+      "devicesProvided": "Équipements Fournis",
+      "integrationPrograms": "Programmes d'Intégration",
+      "satisfactionRate": "Taux de Satisfaction",
+      "satisfactionRateTooltip": "Taux de satisfaction des bénéficiaires concernant les services fournis",
+      "summary": "Résumé des Indicateurs",
+      "performance": "Indicateurs de Performance",
+      "devicesPerBeneficiary": "équipement/bénéficiaire",
+      "integrationRate": "Taux d'Intégration",
+      "agencyDescription": "L'Office National vise à fournir des prothèses et équipements médicaux aux personnes en situation de handicap et à soutenir leur intégration sociale et professionnelle."
+    }
+  },
+  "reports": {
+    "title": "Rapports Annuels",
+    "subtitle": "Bilan Annuel du Secteur de l'Emploi, du Travail et de la Sécurité Sociale",
+    "executiveSummary": "Résumé Exécutif",
+    "executiveSummaryText": "La Direction de l'Emploi de la Wilaya de {{wilaya}} a l'honneur de présenter le bilan annuel de l'année {{year}}, qui comprend les principaux indicateurs et réalisations accomplis dans le secteur de l'emploi, du travail et de la sécurité sociale. Ce bilan vise à fournir une vue d'ensemble de la situation de l'emploi et de la couverture sociale dans la wilaya.",
+    "employmentSector": "Secteur de l'Emploi",
+    "laborInspection": "Inspection du Travail",
+    "socialSecurity": "Sécurité Sociale",
+    "entrepreneurship": "Entrepreneuriat et Auto-Emploi",
+    "inspectionVisits": "Visites d'Inspection",
+    "achievedPlacements": "Placements Réalisés",
+    "recordedViolations": "Infractions Enregistrées",
+    "generalCoverageRate": "Taux de Couverture Générale",
+    "financedProjects": "Projets Financés",
+    "grantedLoans": "Crédits Accordés",
+    "createdPositions": "Postes Créés",
+    "reportFooter": "Ce rapport est émis par la Direction de l'Emploi de la Wilaya de {{wilaya}} - Exercice Financier {{year}}",
+    "dataNote": "Toutes les données sont officielles et approuvées par les autorités compétentes",
+    "employed": "employé",
+    "unemployed": "chômeur"
+  }
+}

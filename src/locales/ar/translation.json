@@ -1,0 +1,390 @@
+{
+  "app": {
+    "title": "النظام الإحصائي الرقمي",
+    "subtitle": "قطاع التشغيل والعمل والضمان الاجتماعي",
+    "version": "الإصدار 1.0 - 2025",
+    "wilaya": "ولاية خنشلة"
+  },
+  "nav": {
+    "dashboard": "لوحة القيادة",
+    "employmentAgency": "مصلحة التشغيل",
+    "laborInspection": "مفتشية العمل",
+    "nationalFunds": "الصناديق الوطنية",
+    "agencies": "الوكالات",
+    "annualReports": "التقارير السنوية"
+  },
+  "auth": {
+    "login": "تسجيل الدخول",
+    "logout": "تسجيل الخروج",
+    "email": "البريد الإلكتروني",
+    "password": "كلمة المرور",
+    "loginButton": "دخول",
+    "fieldsRequired": "يرجى ملء جميع الحقول",
+    "invalidCredentials": "بيانات الدخول غير صحيحة",
+    "demoAccounts": "حسابات تجريبية:",
+    "welcome": "مرحباً",
+    "role": "الصلاحية"
+  },
+  "institutions": {
+    "directorate": "مديرية التشغيل",
+    "anem": "الوكالة الوطنية للتشغيل",
+    "cnas": {
+      "name": "الصندوق الوطني للتأمينات الاجتماعية",
+      "fullName": "الصندوق الوطني للتأمينات الاجتماعية للأجراء",
+      "acronym": "CNAS"
+    },
+    "cnr": {
+      "name": "الصندوق الوطني للتقاعد",
+      "fullName": "الصندوق الوطني للتقاعد",
+      "acronym": "CNR"
+    },
+    "cnac": {
+      "name": "الصندوق الوطني للتأمين عن البطالة",
+      "fullName": "الصندوق الوطني للتأمين عن البطالة",
+      "acronym": "CNAC"
+    },
+    "casnos": {
+      "name": "الصندوق الوطني للضمان الاجتماعي لغير الأجراء",
+      "fullName": "الصندوق الوطني للضمان الاجتماعي لغير الأجراء",
+      "acronym": "CASNOS"
+    },
+    "cacobatph": {
+      "name": "صندوق العطل المدفوعة الأجر للبناء",
+      "fullName": "صندوق العطل المدفوعة الأجر والبطالة الناجمة عن سوء الأحوال الجوية لقطاعات البناء والأشغال العمومية والري",
+      "acronym": "CACOBATPH"
+    },
+    "nesda": {
+      "name": "الوكالة الوطنية لدعم وتنمية المقاولاتية",
+      "fullName": "الوكالة الوطنية لدعم وتنمية المقاولاتية",
+      "acronym": "NESDA"
+    },
+    "angem": {
+      "name": "الوكالة الوطنية للقرض المصغر",
+      "fullName": "الوكالة الوطنية لتسيير القرض المصغر",
+      "acronym": "ANGEM"
+    },
+    "onaaph": {
+      "name": "الديوان الوطني للأعضاء الاصطناعية",
+      "fullName": "الديوان الوطني لتجهيزات الأشخاص المعاقين",
+      "acronym": "ONAAPH"
+    }
+  },
+  "common": {
+    "year": "السنة",
+    "total": "الإجمالي",
+    "percentage": "النسبة",
+    "count": "العدد",
+    "average": "المتوسط",
+    "million": "مليون",
+    "billion": "مليار",
+    "dzd": "دج",
+    "rate": "النسبة",
+    "trend": "التطور",
+    "comparison": "المقارنة",
+    "export": "تصدير",
+    "exportPdf": "تصدير PDF",
+    "filter": "تصفية",
+    "search": "بحث",
+    "all": "الكل",
+    "loading": "جاري التحميل...",
+    "noData": "لا توجد بيانات",
+    "save": "حفظ",
+    "cancel": "إلغاء",
+    "confirm": "تأكيد",
+    "select": "اختر...",
+    "months": {
+      "january": "جانفي",
+      "february": "فيفري",
+      "march": "مارس",
+      "april": "أفريل",
+      "may": "ماي",
+      "june": "جوان",
+      "july": "جويلية",
+      "august": "أوت",
+      "september": "سبتمبر",
+      "october": "أكتوبر",
+      "november": "نوفمبر",
+      "december": "ديسمبر"
+    },
+    "quarters": {
+      "q1": "الربع الأول",
+      "q2": "الربع الثاني",
+      "q3": "الربع الثالث",
+      "q4": "الربع الرابع"
+    }
+  },
+  "crud": {
+    "addNew": "إضافة جديد",
+    "edit": "تعديل",
+    "delete": "حذف",
+    "import": "استيراد",
+    "actions": "الإجراءات",
+    "locked": "مقفل",
+    "lockedTooltip": "هذا السجل مقفل ولا يمكن تعديله",
+    "deleteConfirmTitle": "تأكيد الحذف",
+    "deleteConfirmMessage": "هل أنت متأكد من حذف {{item}}؟",
+    "deleteWarning": "لا يمكن التراجع عن هذا الإجراء.",
+    "confirmDelete": "تأكيد الحذف",
+    "showingResults": "عرض {{count}} من أصل {{total}} نتيجة"
+  },
+  "export": {
+    "selectFormat": "اختر صيغة التصدير",
+    "excel": "Excel (.xlsx)",
+    "excelDesc": "جداول بيانات منظمة",
+    "pdf": "PDF (.pdf)",
+    "pdfDesc": "تقرير رسمي للطباعة",
+    "word": "Word (.docx)",
+    "wordDesc": "وثيقة إدارية",
+    "powerpoint": "PowerPoint (.pptx)",
+    "powerpointDesc": "عرض تقديمي",
+    "success": "تم التصدير بنجاح",
+    "fileGenerated": "تم إنشاء ملف {{format}}",
+    "error": "خطأ في التصدير",
+    "errorMessage": "حدث خطأ أثناء إنشاء الملف"
+  },
+  "validation": {
+    "required": "حقل {{field}} مطلوب",
+    "invalidNumber": "الرجاء إدخال رقم صحيح",
+    "minValue": "القيمة يجب أن تكون أكبر من {{min}}",
+    "maxValue": "القيمة يجب أن تكون أقل من {{max}}"
+  },
+  "dashboard": {
+    "title": "لوحة القيادة الرئيسية",
+    "subtitle": "الإحصائيات العامة لقطاع التشغيل والعمل والضمان الاجتماعي",
+    "kpis": {
+      "activePopulation": "السكان النشطون",
+      "activePopulationTooltip": "عدد السكان في سن العمل (15-64 سنة) القادرين على العمل",
+      "employedPopulation": "السكان المشتغلون",
+      "employedPopulationTooltip": "عدد الأشخاص الذين لديهم عمل مأجور أو نشاط مهني",
+      "unemploymentRate": "معدل البطالة",
+      "unemploymentRateTooltip": "نسبة العاطلين عن العمل من إجمالي السكان النشطين",
+      "totalBeneficiaries": "المستفيدون من الضمان الاجتماعي",
+      "totalBeneficiariesTooltip": "إجمالي المؤمنين اجتماعياً عبر جميع الصناديق",
+      "registeredJobSeekers": "طالبي العمل المسجلين",
+      "placementsThisYear": "التنصيبات هذا العام",
+      "socialSecurityCoverage": "نسبة التغطية الاجتماعية",
+      "retiredPersons": "المتقاعدون"
+    },
+    "charts": {
+      "employmentEvolution": "تطور التشغيل والبطالة",
+      "beneficiariesDistribution": "توزيع المستفيدين حسب الصندوق",
+      "monthlyRegistrations": "التسجيلات والتنصيبات الشهرية",
+      "educationDistribution": "توزيع طالبي العمل حسب المستوى التعليمي"
+    },
+    "quickStats": "إحصائيات سريعة",
+    "availableJobOffers": "عروض العمل المتاحة",
+    "placementRate": "نسبة التنصيب",
+    "newRegistrations": "تسجيلات جديدة",
+    "totalRegistered": "إجمالي المسجلين",
+    "yearlyEmploymentComparison": "المقارنة السنوية للتشغيل",
+    "entrepreneurship": "المقاولاتية والقروض المصغرة"
+  },
+  "employment": {
+    "title": "مصلحة التشغيل بالولاية",
+    "subtitle": "الوكالة الوطنية للتشغيل - فرع خنشلة",
+    "totalJobSeekers": "طالبي العمل المسجلين",
+    "newRegistrations": "التسجيلات الجديدة",
+    "jobOffers": "عروض العمل",
+    "placements": "التنصيبات",
+    "placementRate": "نسبة التنصيب",
+    "monthlyTrend": "التطور الشهري للتسجيلات والتنصيبات",
+    "ageDistribution": "توزيع طالبي العمل حسب الفئة العمرية",
+    "educationDistribution": "توزيع طالبي العمل حسب المستوى التعليمي",
+    "contractDistribution": "توزيع التنصيبات حسب نوع العقد",
+    "yearlyComparison": "المقارنة السنوية",
+    "educationLevels": {
+      "university": "جامعي",
+      "secondary": "ثانوي",
+      "vocational": "تكوين مهني",
+      "primary": "متوسط فما دون"
+    },
+    "contractTypes": {
+      "permanent": "عقد غير محدد المدة",
+      "temporary": "عقد محدد المدة",
+      "integration": "إدماج مهني",
+      "training": "تكوين"
+    },
+    "registrations": "التسجيلات"
+  },
+  "laborInspection": {
+    "title": "مفتشية العمل",
+    "subtitle": "إحصائيات المراقبة والتفتيش",
+    "totalVisits": "إجمالي الزيارات",
+    "totalVisitsTooltip": "عدد زيارات التفتيش الميدانية المنجزة خلال السنة",
+    "companiesInspected": "المؤسسات المراقبة",
+    "workersControlled": "العمال المراقبون",
+    "violationsRecorded": "المخالفات المسجلة",
+    "complianceRate": "نسبة الامتثال",
+    "complianceRateTooltip": "نسبة المؤسسات الممتثلة لقانون العمل",
+    "visitsByType": "توزيع الزيارات حسب النوع",
+    "violationsByCategory": "توزيع المخالفات حسب الفئة",
+    "sectorDistribution": "توزيع الزيارات والمخالفات حسب القطاع",
+    "quarterlyTrend": "التطور الفصلي",
+    "visitTypes": {
+      "routine": "زيارات روتينية",
+      "control": "زيارات مراقبة",
+      "accident": "تحقيقات حوادث",
+      "complaint": "متابعة شكاوى"
+    },
+    "violationCategories": {
+      "safety": "السلامة والصحة المهنية",
+      "contracts": "عقود العمل",
+      "wages": "الأجور والتعويضات",
+      "hours": "ساعات العمل",
+      "other": "أخرى"
+    },
+    "sectors": {
+      "construction": "البناء والأشغال العمومية",
+      "commerce": "التجارة",
+      "industry": "الصناعة",
+      "services": "الخدمات",
+      "agriculture": "الفلاحة"
+    },
+    "visits": "زيارة",
+    "violations": "مخالفة"
+  },
+  "funds": {
+    "cnas": {
+      "title": "الصندوق الوطني للتأمينات الاجتماعية",
+      "subtitle": "إحصائيات التغطية الاجتماعية للأجراء",
+      "affiliatedWorkers": "العمال المنخرطين",
+      "affiliatedWorkersTooltip": "عدد العمال المنخرطين في نظام التأمين الاجتماعي",
+      "employers": "أرباب العمل",
+      "beneficiaries": "المستفيدون",
+      "beneficiariesTooltip": "إجمالي المستفيدين من التغطية (العمال وذويهم)",
+      "medicalReimbursements": "تعويضات الأدوية",
+      "contributionRate": "نسبة الاشتراكات",
+      "contributionRateTooltip": "نسبة تحصيل الاشتراكات من إجمالي المستحقات",
+      "affiliatedEvolution": "تطور عدد المنخرطين",
+      "summary": "ملخص المؤشرات",
+      "fundInfo": "معلومات الصندوق",
+      "fundDescription": "يتكفل الصندوق بتغطية العمال الأجراء ضد المخاطر المهنية والأمراض، ويضمن لهم تعويضات الأدوية والعلاج والإقامة في المستشفيات.",
+      "familyCoverageRate": "معدل التغطية للعائلات",
+      "avgWorkersPerCompany": "متوسط العمال/مؤسسة"
+    },
+    "cnr": {
+      "title": "الصندوق الوطني للتقاعد",
+      "subtitle": "إحصائيات المتقاعدين ومعاشات التقاعد",
+      "totalRetirees": "إجمالي المتقاعدين",
+      "newRetirees": "المتقاعدون الجدد",
+      "averagePension": "متوسط المعاش",
+      "pensionBudget": "ميزانية المعاشات",
+      "survivalPensions": "معاشات الوراثة",
+      "survivalPensionsTooltip": "عدد المستفيدين من معاشات الوراثة",
+      "retireesEvolution": "تطور عدد المتقاعدين",
+      "derivedIndicators": "مؤشرات مشتقة",
+      "survivalRate": "نسبة معاشات الوراثة",
+      "calculatedAvgPension": "متوسط المعاش الشهري المحسوب",
+      "newFlowRate": "نسبة التدفق الجديد"
+    },
+    "cnac": {
+      "title": "الصندوق الوطني للتأمين عن البطالة",
+      "subtitle": "إحصائيات التعويض عن البطالة ودعم المشاريع",
+      "registeredUnemployed": "البطالون المسجلون",
+      "allowanceBeneficiaries": "المستفيدون من التعويضات",
+      "monthlyAllowance": "التعويض الشهري",
+      "projectsFinanced": "المشاريع الممولة",
+      "jobsCreated": "مناصب الشغل المستحدثة",
+      "jobsCreatedTooltip": "مناصب الشغل المستحدثة عبر المشاريع الممولة",
+      "unemploymentStats": "إحصائيات التعويض عن البطالة",
+      "projectSupport": "دعم المشاريع المصغرة",
+      "benefitRate": "نسبة الاستفادة",
+      "financedProject": "مشروع ممول",
+      "createdPosition": "منصب مستحدث",
+      "avgPositionsPerProject": "متوسط المناصب/مشروع"
+    },
+    "casnos": {
+      "title": "الصندوق الوطني للضمان الاجتماعي لغير الأجراء",
+      "subtitle": "إحصائيات التغطية الاجتماعية للعمال المستقلين",
+      "affiliatedWorkers": "المنخرطين",
+      "activeContributors": "المساهمين النشطين",
+      "retiredBeneficiaries": "المتقاعدين المستفيدين",
+      "contributionRate": "نسبة الاشتراكات",
+      "affiliatedEvolution": "تطور عدد المنخرطين",
+      "summary": "ملخص المؤشرات",
+      "derivedIndicators": "مؤشرات مشتقة",
+      "activityRate": "نسبة النشاط",
+      "retiredRate": "نسبة المتقاعدين",
+      "fundDescription": "يتكفل صندوق CASNOS بالتغطية الاجتماعية للعمال غير الأجراء كالتجار والحرفيين والفلاحين والمهن الحرة."
+    },
+    "cacobatph": {
+      "title": "صندوق العطل المدفوعة الأجر للبناء والأشغال العمومية",
+      "subtitle": "إحصائيات العمال المنخرطين والعطل المدفوعة",
+      "registeredWorkers": "العمال المسجلين",
+      "employersAffiliated": "أرباب العمل المنخرطين",
+      "leavesDays": "أيام العطل المدفوعة",
+      "totalBudget": "الميزانية الإجمالية",
+      "summary": "ملخص المؤشرات",
+      "derivedIndicators": "مؤشرات مشتقة",
+      "workersPerCompany": "عامل/مؤسسة",
+      "daysPerWorker": "يوم/عامل",
+      "fundDescription": "يتكفل صندوق CACOBATPH بتمويل العطل السنوية المدفوعة الأجر لعمال قطاع البناء والأشغال العمومية والري."
+    }
+  },
+  "agencies": {
+    "nesda": {
+      "title": "الوكالة الوطنية لدعم وتنمية المقاولاتية",
+      "subtitle": "إحصائيات دعم المشاريع المقاولاتية",
+      "projectsSubmitted": "المشاريع المقدمة",
+      "projectsApproved": "المشاريع المصادق عليها",
+      "jobsCreated": "مناصب الشغل المستحدثة",
+      "totalFinancing": "التمويل الممنوح",
+      "successRate": "نسبة النجاح",
+      "successRateTooltip": "نسبة المشاريع المصادق عليها من إجمالي المقدمة",
+      "projectsEvolution": "تطور المشاريع الممولة",
+      "summary": "ملخص المؤشرات",
+      "performance": "مؤشرات الأداء",
+      "positionsPerProject": "منصب/مشروع",
+      "financingPerProject": "مليون دج/مشروع",
+      "agencyDescription": "تهدف وكالة NESDA إلى دعم وتطوير روح المقاولاتية لدى الشباب وتمويل مشاريعهم الاستثمارية."
+    },
+    "angem": {
+      "title": "الوكالة الوطنية للقرض المصغر",
+      "subtitle": "إحصائيات القروض المصغرة والتشغيل الذاتي",
+      "creditsGranted": "القروض الممنوحة",
+      "totalAmount": "المبلغ الإجمالي",
+      "beneficiaries": "المستفيدين",
+      "womenPercentage": "نسبة النساء",
+      "womenPercentageTooltip": "نسبة النساء المستفيدات من القروض",
+      "repaymentRate": "نسبة السداد",
+      "averageLoan": "متوسط القرض",
+      "creditsEvolution": "تطور القروض الممنوحة",
+      "summary": "ملخص المؤشرات",
+      "socialDimension": "البعد الاجتماعي",
+      "womenBeneficiaries": "امرأة مستفيدة",
+      "agencyDescription": "تهدف وكالة ANGEM إلى محاربة البطالة والهشاشة من خلال منح قروض مصغرة لتمويل مشاريع صغيرة ونشاطات مدرة للدخل."
+    },
+    "onaaph": {
+      "title": "الديوان الوطني لتجهيزات الأشخاص المعاقين",
+      "subtitle": "إحصائيات الأعضاء الاصطناعية والإدماج الاجتماعي",
+      "registeredBeneficiaries": "المستفيدين المسجلين",
+      "devicesProvided": "التجهيزات المقدمة",
+      "integrationPrograms": "برامج الإدماج",
+      "satisfactionRate": "نسبة الرضا",
+      "satisfactionRateTooltip": "نسبة رضا المستفيدين عن الخدمات المقدمة",
+      "summary": "ملخص المؤشرات",
+      "performance": "مؤشرات الأداء",
+      "devicesPerBeneficiary": "تجهيز/مستفيد",
+      "integrationRate": "نسبة الإدماج",
+      "agencyDescription": "يهدف الديوان الوطني إلى توفير الأعضاء الاصطناعية والتجهيزات الطبية للأشخاص ذوي الإعاقة ودعم إدماجهم الاجتماعي والمهني."
+    }
+  },
+  "reports": {
+    "title": "التقارير السنوية",
+    "subtitle": "الحصيلة السنوية لقطاع التشغيل والعمل والضمان الاجتماعي",
+    "executiveSummary": "الملخص التنفيذي",
+    "executiveSummaryText": "تتشرف مديرية التشغيل بولاية {{wilaya}} بتقديم الحصيلة السنوية لسنة {{year}}، والتي تتضمن أهم المؤشرات والإنجازات المحققة في قطاع التشغيل والعمل والضمان الاجتماعي. تهدف هذه الحصيلة إلى تقديم صورة شاملة عن وضعية التشغيل والتغطية الاجتماعية بالولاية.",
+    "employmentSector": "قطاع التشغيل",
+    "laborInspection": "مفتشية العمل",
+    "socialSecurity": "الضمان الاجتماعي",
+    "entrepreneurship": "المقاولاتية والتشغيل الذاتي",
+    "inspectionVisits": "زيارات التفتيش",
+    "achievedPlacements": "التنصيبات المحققة",
+    "recordedViolations": "المخالفات المسجلة",
+    "generalCoverageRate": "نسبة التغطية العامة",
+    "financedProjects": "المشاريع الممولة",
+    "grantedCredits": "القروض الممنوحة",
+    "reportFooter": "هذا التقرير صادر عن مديرية التشغيل لولاية {{wilaya}} - السنة المالية {{year}}",
+    "officialData": "جميع البيانات رسمية ومعتمدة من الهيئات المختصة"
+  }
+}

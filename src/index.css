@@ -1,0 +1,226 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Kufi+Arabic:wght@400;500;600;700;800&family=Noto+Sans+Arabic:wght@400;500;600;700&display=swap');
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+@layer base {
+  :root {
+    /* Government Official Colors - Deep Navy & Algerian Green */
+    --background: 210 20% 98%;
+    --foreground: 220 25% 10%;
+
+    --card: 0 0% 100%;
+    --card-foreground: 220 25% 10%;
+
+    --popover: 0 0% 100%;
+    --popover-foreground: 220 25% 10%;
+
+    /* Deep Navy Blue - Authority & Trust */
+    --primary: 215 65% 25%;
+    --primary-foreground: 0 0% 100%;
+
+    /* Algerian Green - National Identity */
+    --secondary: 145 45% 30%;
+    --secondary-foreground: 0 0% 100%;
+
+    --muted: 210 15% 93%;
+    --muted-foreground: 215 15% 45%;
+
+    /* Gold Accent - Official Documents */
+    --accent: 40 75% 50%;
+    --accent-foreground: 220 25% 10%;
+
+    --destructive: 0 72% 45%;
+    --destructive-foreground: 0 0% 100%;
+
+    --border: 214 20% 88%;
+    --input: 214 20% 88%;
+    --ring: 215 65% 25%;
+
+    --radius: 0.5rem;
+
+    /* Sidebar - Official Dark Theme */
+    --sidebar-background: 215 65% 18%;
+    --sidebar-foreground: 210 30% 95%;
+    --sidebar-primary: 40 75% 55%;
+    --sidebar-primary-foreground: 220 25% 10%;
+    --sidebar-accent: 215 55% 25%;
+    --sidebar-accent-foreground: 210 30% 95%;
+    --sidebar-border: 215 50% 25%;
+    --sidebar-ring: 40 75% 55%;
+
+    /* Custom Government Tokens */
+    --gov-navy: 215 65% 20%;
+    --gov-navy-light: 215 45% 35%;
+    --gov-green: 145 45% 30%;
+    --gov-green-light: 145 35% 45%;
+    --gov-gold: 40 75% 50%;
+    --gov-gold-light: 42 80% 65%;
+    --gov-red: 0 65% 50%;
+    --gov-blue-accent: 205 85% 55%;
+    
+    /* Chart Colors */
+    --chart-1: 215 65% 25%;
+    --chart-2: 145 45% 35%;
+    --chart-3: 40 75% 50%;
+    --chart-4: 205 85% 55%;
+    --chart-5: 280 50% 45%;
+  }
+
+  .dark {
+    --background: 220 25% 8%;
+    --foreground: 210 30% 95%;
+
+    --card: 220 25% 12%;
+    --card-foreground: 210 30% 95%;
+
+    --popover: 220 25% 12%;
+    --popover-foreground: 210 30% 95%;
+
+    --primary: 215 55% 45%;
+    --primary-foreground: 0 0% 100%;
+
+    --secondary: 145 40% 35%;
+    --secondary-foreground: 0 0% 100%;
+
+    --muted: 220 20% 18%;
+    --muted-foreground: 215 15% 60%;
+
+    --accent: 40 70% 55%;
+    --accent-foreground: 220 25% 10%;
+
+    --destructive: 0 65% 45%;
+    --destructive-foreground: 0 0% 100%;
+
+    --border: 220 20% 20%;
+    --input: 220 20% 20%;
+    --ring: 215 55% 45%;
+
+    --sidebar-background: 220 30% 6%;
+    --sidebar-foreground: 210 30% 95%;
+    --sidebar-primary: 40 70% 55%;
+    --sidebar-primary-foreground: 220 25% 10%;
+    --sidebar-accent: 220 25% 15%;
+    --sidebar-accent-foreground: 210 30% 95%;
+    --sidebar-border: 220 20% 15%;
+    --sidebar-ring: 40 70% 55%;
+  }
+}
+
+@layer base {
+  * {
+    @apply border-border;
+  }
+
+  html {
+    direction: rtl;
+  }
+
+  body {
+    @apply bg-background text-foreground font-arabic antialiased;
+  }
+
+  h1, h2, h3, h4, h5, h6 {
+    @apply font-kufi font-bold;
+  }
+}
+
+@layer components {
+  .gov-header {
+    @apply bg-gradient-to-l from-primary via-primary to-gov-navy-light text-primary-foreground;
+  }
+
+  .gov-card {
+    @apply bg-card rounded-lg border border-border shadow-sm hover:shadow-md transition-shadow;
+  }
+
+  .gov-card-header {
+    @apply border-b border-border bg-muted/30 px-6 py-4 rounded-t-lg;
+  }
+
+  .gov-stat-card {
+    @apply bg-card rounded-lg border border-border p-6 relative overflow-hidden;
+  }
+
+  .gov-stat-card::before {
+    content: '';
+    @apply absolute top-0 right-0 w-1 h-full bg-gradient-to-b from-primary to-secondary;
+  }
+
+  .gov-badge {
+    @apply inline-flex items-center px-3 py-1 rounded-full text-sm font-medium;
+  }
+
+  .gov-badge-primary {
+    @apply bg-primary/10 text-primary;
+  }
+
+  .gov-badge-success {
+    @apply bg-secondary/10 text-secondary;
+  }
+
+  .gov-badge-warning {
+    @apply bg-accent/10 text-accent;
+  }
+
+  .gov-table {
+    @apply w-full text-sm;
+  }
+
+  .gov-table th {
+    @apply bg-muted/50 font-kufi font-semibold text-foreground px-4 py-3 text-right;
+  }
+
+  .gov-table td {
+    @apply px-4 py-3 border-b border-border;
+  }
+
+  .gov-section-title {
+    @apply text-xl font-kufi font-bold text-foreground flex items-center gap-3;
+  }
+
+  .gov-section-title::before {
+    content: '';
+    @apply w-1 h-6 bg-gradient-to-b from-primary to-accent rounded-full;
+  }
+
+  .kpi-value {
+    @apply text-3xl font-kufi font-bold text-primary;
+  }
+
+  .kpi-label {
+    @apply text-sm text-muted-foreground font-medium mt-1;
+  }
+
+  .kpi-trend-up {
+    @apply text-secondary text-sm font-medium flex items-center gap-1;
+  }
+
+  .kpi-trend-down {
+    @apply text-destructive text-sm font-medium flex items-center gap-1;
+  }
+}
+
+@layer utilities {
+  .font-arabic {
+    font-family: 'Noto Sans Arabic', 'Noto Kufi Arabic', system-ui, sans-serif;
+  }
+
+  .font-kufi {
+    font-family: 'Noto Kufi Arabic', 'Noto Sans Arabic', system-ui, sans-serif;
+  }
+
+  .text-balance {
+    text-wrap: balance;
+  }
+
+  .gov-gradient-text {
+    @apply bg-gradient-to-l from-primary to-secondary bg-clip-text text-transparent;
+  }
+
+  .gov-shadow {
+    box-shadow: 0 4px 20px -2px hsl(var(--primary) / 0.15);
+  }
+}
